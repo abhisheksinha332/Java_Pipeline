@@ -1,11 +1,16 @@
 public class Main {
+
+    void revolve(){
+        System.out.println("This is Planet");
+    }
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        
+        
+        Main earth = new Main();
+        earth.revolve();
 
-        int[] numbers = {10, 20, 30, 40, 50};
-
-        for(int i=0; i<5; i++){
-            System.out.println(numbers[i]);
-        }
+        Multiplication table = new Multiplication();
+        table.print();
+        table.print(5,11,20);
     }
 }
